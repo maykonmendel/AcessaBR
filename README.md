@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="AcessaBR layout" src="public/images/layout-acessaBr.png" width="100%">
+  <img alt="AcessaBR layout" src="src/images/layout-acessaBr.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

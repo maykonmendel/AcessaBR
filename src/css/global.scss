@@ -1,0 +1,52 @@
+@import "colors";
+
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: local("Circular Std Medium"), local("Circular-Std-Medium"), url("../fonts/CircularStd.ttf") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std Book";
+    src: local("Circular Std Book"), local("Circular-Std-Book"), url("../fonts/CircularStd-Book.ttf") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Circular Std", "Circular Std", Arial, Helvetica, sans-serif;
+    color: $black;
+}
+
+.main {
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    &__container{
+        width: 100%;
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+}

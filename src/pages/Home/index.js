@@ -5,13 +5,13 @@ import Pills from '../../components/Pills';
 
 const PLACES = ['Praças', 'Parques', 'Igrejas', 'Hotéis', 'Restaurantes', 'Hospitais', 'Farmácias', 'Lojas', 'Shoppings', 'Bancos'];
 
-const Home = () => {
+const Home = props => {
     const [selectedPill, setSelectedPill] = useState('');
 
     return (
         <main id="main-content" className="home__container">
             <div className="home__col">
-                <h1 className="home__title">Alegre para todos</h1>
+                <h1 className="home__title">{props.city} para todos</h1>
                 <p className="home__text">
                     Nossa missão é facilitar o encontro entre lugares inclusivos
                     e pessoas que buscam alternativas culturais para sair de

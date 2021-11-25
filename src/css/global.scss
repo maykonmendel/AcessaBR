@@ -32,7 +32,7 @@ html {
 
 body {
     font-family: "Circular Std", "Circular Std", Arial, Helvetica, sans-serif;
-    color: $black;
+    color: var(--black);
 }
 
 .main {
@@ -49,4 +49,9 @@ body {
         max-width: 120rem;
         margin: 0 auto;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

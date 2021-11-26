@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.scss';
+import './curator.scss';
 import curatorPhoto from '../../images/maykon-mendel.jpeg';
 
-const Curator = props => {
+const Curator = () => {
     return (
         <div className="curator__container">
             <div className="curator__photo">

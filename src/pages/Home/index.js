@@ -24,6 +24,7 @@ const Home = props => {
                 <div className="home__pills">
                     {PLACES.map((item) => (
                         <Pills
+                            key={item}
                             local={item}
                             selected={selectedPill === item}
                             onClick={() => setSelectedPill(item)}

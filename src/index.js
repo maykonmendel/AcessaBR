@@ -5,18 +5,18 @@ import Header from './components/Header';
 import Places from './components/Places';
 import Curator from './components/Curator';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import Routes from './routes';
 
 const CONFIG = {
-    uf: 'ES',
-    city: 'Alegre'
-}
+    uf: 'SP',
+    city: 'São Paulo'
+};
 
 ReactDOM.render(
     <div className="main__wrapper">
         <div className="main__container">
             <Header city={CONFIG.city} uf={CONFIG.uf} />
-            <Home city={CONFIG.city} />
+            <Routes city={CONFIG.city} uf={CONFIG.uf} />
             <Places />
             <Curator />
         </div>

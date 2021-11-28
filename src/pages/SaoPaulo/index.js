@@ -5,7 +5,7 @@ import Pills from '../../components/Pills';
 
 const PLACES = ['Praças', 'Parques', 'Igrejas', 'Hotéis', 'Restaurantes', 'Hospitais', 'Farmácias', 'Lojas', 'Shoppings', 'Bancos'];
 
-const Home = props => {
+const SaoPaulo = props => {
     const [selectedPill, setSelectedPill] = useState('');
 
     return (
@@ -44,4 +44,4 @@ const Home = props => {
     );
 }
 
-export default Home;
+export default SaoPaulo;

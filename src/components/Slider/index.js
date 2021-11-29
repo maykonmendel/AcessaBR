@@ -14,7 +14,7 @@ const Slider = () => {
 
     useEffect(() => {
         const fetchPlaces = async () => {
-            const result = await api.get(`/places?category=${filteredPlaces}`);
+            const result = await api.get(`/places?category_like=${filteredPlaces}`);
 
             if (result.status === 200) {
                 setPlaces(result.data);
